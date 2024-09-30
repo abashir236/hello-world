@@ -15,4 +15,5 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+          sleep 1500s
       - run: echo "🍏 This job's status is ${{ job.status }}."
